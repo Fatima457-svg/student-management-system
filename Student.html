@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="student.css">
+</head>
+<body>
+    <h1>School Management System</h1>
+    <div class="form-box">
+        <input type="text" id="name" placeholder="Enter Your Name">
+        <input type="number" id="RollNo" placeholder="Enter RollNo">
+        <input type="number" id="CGPA" placeholder="Enter Your CGPA">
+        <button onclick="add()">Add Student</button>
+    </div>
+    <h2>Student List</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>RollNO</th>
+                <th>CGPA</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+    <tbody id="StudentList"></tbody>    
+    </table>
+    <script src="student.js"></script>
+
+</body>
+</html>
